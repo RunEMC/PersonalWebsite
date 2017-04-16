@@ -1,0 +1,169 @@
+/*
+font-family: 'Cabin', sans-serif;
+font-family: 'Bitter', serif;
+font-family: 'Copse', serif;
+font-family: 'Neuton', serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+
+.headerwrapper {
+	margin: 25px 45px;
+	margin-bottom: 0;
+	padding: 25px;
+	padding-left: 45px;
+	border: 3px Solid #bababa;
+	border-radius: 25px;
+	background-color: #f7f4f4;
+}
+
+.headerwrapper .header-blog {
+	color: #424242; 
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+	display: inline-block;
+	margin: 0;
+}
+
+.headerwrapper .form-control {
+	display: inline-block;
+	width: 65%;
+	float: left;
+	margin-right: 10px;
+}
+
+.panel-group {
+	margin-top: 25px;
+}
+
+/* Themes
+TEST
+REVIEW
+LIFE
+*/
+
+
+.panel .TEST {
+	background-color: #f9e5c5
+}
+.panel .TEST .DateWrapper {
+	background-color: #f2bc65
+}
+
+.BlogSection {
+	background-color: #eff0f2;
+	margin: 25px 45px;
+	border-radius: 15px;
+	padding: 0;
+}
+
+.BlogSection .ButtonWrapper {
+	margin: 0px;
+}
+
+.BlogSection .ButtonWrapper button:focus {
+	outline: none;
+}
+
+.BlogSection .ButtonWrapper button:active {
+	/*border-color: #0f0f0f;
+	border-width: 5px;*/
+}
+
+.BlogSection .ButtonWrapper button {
+	margin: 15px 0px;
+	height: 55px;
+	/*font-weight: bold;*/
+	background-color: white;
+	border-color: #c62c05;
+	color: #c62c05;
+	transition-property: all;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+	transition-delay: initial;
+}
+
+.BlogSection .ButtonWrapper button:hover {
+	background-color: #c62c05;
+	color: white;
+}
+
+/* Open Button */
+.BlogSection .ButtonWrapper .open-btn {
+	border-color: #4baf42; 
+	color: #4baf42;
+}
+.BlogSection .ButtonWrapper .open-btn:hover {
+	background-color: #4baf42;
+	color: white;
+}
+
+.BlogSection .DateWrapper {
+	border-radius: 15px;
+	margin: 0;
+}
+
+.BlogSection .DateWrapper h4 {
+	font-family: 'Roboto', sans-serif;
+	color: #211f1e;
+	padding: 10px;
+	margin: 0;
+	font-weight: bold;
+}
+
+.BlogSection a:hover h4 {
+	text-decoration: none;
+	color: #e2e2e2;
+}
+
+.panel-group .panel .BlogSection a {
+	text-decoration: none;
+}
+
+.BlogSection .BodyWrapper {
+	font-family: 'Neuton', serif;
+	font-size: 18px;
+	margin: 35px 55px;
+	margin-top: 10px;
+}
+
+.BlogSection .TitleWrapper {
+	font-family: 'Bitter', serif;
+	font-size: 36px;
+}
+
+
+/* Old
+
+#BlogSection {
+	background-color: #eff0f2;
+	margin: 25px;
+	border-radius: 15px !important;
+	padding: 0;
+}
+
+#BlogSection .BodyWrapper {
+	margin: 35px;
+}
+
+#BlogSection .DateWrapper {
+	border-radius: 15px;
+	margin: 0;
+}
+
+#BlogSection .DateWrapper h4 {
+	color: #1e4ca0;
+	padding: 10px;
+	margin: 0;
+}
+
+#BlogSection a:hover {
+	text-decoration: none;
+}
+
+#BlogSection a {
+	text-decoration: none;
+}
+
+*/

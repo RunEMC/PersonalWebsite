@@ -1,0 +1,55 @@
+.nopadding {
+    padding: 0;
+    margin: 0;
+}
+
+.jsnum {
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.mainbox {
+    padding: 15px;
+    /*background-color: #a00911*/
+}
+
+a, a:hover, a:active, a:focus {
+    text-decoration: none;
+}
+
+
+.w3-card-2 {
+    width: 150px;
+    height: 250px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.w3-card-2 img {
+    height: 128px;
+    padding: 25px;
+    padding-left: 20px;
+    margin: auto;
+    display: block;
+}
+

@@ -1,0 +1,390 @@
+/*
+#overlay_image{
+    position: absolute;
+    top: 100%;
+    left: 10px;
+    width: 55px;
+    height: 55px;
+    background: #d6ebf9;
+    border-color: #003c68;
+    opacity: 0.5;
+    border-radius: 55px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+font-family: 'Ubuntu', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Droid Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Oxygen', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Cabin', sans-serif;
+*/
+
+.header {
+	color: #424242; 
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+	margin: 25px 45px;
+	margin-bottom: 0;
+	padding: 25px;
+	padding-left: 45px;
+	border: 3px Solid #bababa;
+	border-radius: 25px;
+	background-color: #f7f4f4;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:focus {
+	text-decoration: none;
+}
+
+
+@media screen and (min-width: 1400px) {
+	.flipcard {
+		position: relative;
+		margin: 25px 15px;
+		font-family: 'Droid Sans', sans-serif;
+		height: 350px;
+		-webkit-transform-style: preserve-3d;
+		-webkit-transition: 0.5s;
+		-moz-transform-style: preserve-3d;
+	    -moz-transition: 0.5s;
+	    -ms-transform-style: preserve-3d;
+	    -ms-transition: 0.5s;
+	    -o-transform-style: preserve-3d;
+	    -o-transition: 0.5s;
+	    transition: 0.5s;
+	}
+	.flipcard .face {
+		position: absolute;
+		-webkit-backface-visibility: hidden;
+	    -moz-backface-visibility: hidden;
+	    -ms-backface-visibility: hidden;
+	    -o-backface-visibility: hidden;
+	    backface-visibility: hidden;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+
+	}
+	.flipcard h3 {
+		margin-top: 130px;
+	}
+	.flipcard p {
+		font-size: 14px;
+		margin: 10px;
+	}
+	.front, .back {
+		border: 2px gray solid;
+		border-radius: 10px;
+		height: 100%;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1400px){
+	.flipcard {
+		position: relative;
+		font-family: 'Droid Sans', sans-serif;
+		height: 350px;
+		-webkit-transform-style: preserve-3d;
+		-webkit-transition: 0.5s;
+		-moz-transform-style: preserve-3d;
+	    -moz-transition: 0.5s;
+	    -ms-transform-style: preserve-3d;
+	    -ms-transition: 0.5s;
+	    -o-transform-style: preserve-3d;
+	    -o-transition: 0.5s;
+	    transition: 0.5s;
+		margin: 25px 25px;
+	}
+	.flipcard .face {
+		position: absolute;
+		-webkit-backface-visibility: hidden;
+	    -moz-backface-visibility: hidden;
+	    -ms-backface-visibility: hidden;
+	    -o-backface-visibility: hidden;
+	    backface-visibility: hidden;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+
+	}
+	.flipcard h3 {
+		margin-top: 130px;
+	}
+	.flipcard p {
+		font-size: 14px;
+		margin: 10px;
+	}
+	.front, .back {
+		border: 2px gray solid;
+		border-radius: 10px;
+		height: 100%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.flipcard {
+		position: relative;
+		font-family: 'Droid Sans', sans-serif;
+		height: 350px;
+		margin: 0px 40px;
+		-webkit-transform-style: preserve-3d;
+		-webkit-transition: 0.5s;
+		-moz-transform-style: preserve-3d;
+	    -moz-transition: 0.5s;
+	    -ms-transform-style: preserve-3d;
+	    -ms-transition: 0.5s;
+	    -o-transform-style: preserve-3d;
+	    -o-transition: 0.5s;
+	    transition: 0.5s;
+	}
+	.flipcard .face {
+		position: absolute;
+		-webkit-backface-visibility: hidden;
+	    -moz-backface-visibility: hidden;
+	    -ms-backface-visibility: hidden;
+	    -o-backface-visibility: hidden;
+	    backface-visibility: hidden;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+
+	}
+	.flipcard h3 {
+		margin-top: 130px;
+	}
+	.flipcard p {
+		font-size: 14px;
+		margin: 10px;
+	}
+	.front, .back {
+		border: 2px gray solid;
+		border-radius: 10px;
+		height: 100%;
+	}
+}
+
+#WhoAmI .front {
+	color: #875d0a;
+	background-color: #e8b96f;
+	height: 100%;
+}
+#WhoAmI .back {
+	color: #875d0a;
+	background-color: #ffe9c6;
+	-webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+#WhoAmI:hover .front, #WhoAmI:hover .back {
+	box-shadow: 0px 0px 20px #ffb523;
+}
+
+#WhatIDo .front {
+	color: #3f7023;
+	background-color: #a3d87b;
+	height: 100%;
+}
+#WhatIDo .back {
+	color: #3f7023;
+	background-color: #dcfcc4;
+	-webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+#WhatIDo:hover .front, #WhatIDo:hover .back {
+	box-shadow: 0px 0px 20px #279e00;
+}
+
+#Interests .front {
+	color: #51237f;
+	background-color: #b5a4f4;
+	height: 100%;
+}
+#Interests .back {
+	color: #51237f;
+	background-color: #d5c9ff;
+	-webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+#Interests:hover .front, #Interests:hover .back {
+	box-shadow: 0px 0px 20px #762ff9;
+}
+
+#WatchList .front {
+	background-color: #a0beef;
+	height: 100%;
+}
+#WatchList .back {
+	background-color: #ddeaff;
+	-webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+#WatchList:hover .front, #WatchList:hover .back {
+	box-shadow: 0px 0px 20px #72d2ff;
+}
+
+.seen {
+	text-decoration: line-through;
+}
+
+
+/* Try 1 (Button Themes)
+
+#ProfilePanel {
+	margin: 25px;
+	padding: 0;
+	background-color: #ededed;
+	border-radius: 15px;
+	border: 3px solid #929ea0
+}
+
+#ProfilePanel .img_container {
+	/*temp
+	height: 300px;
+	background-color: #e2faff;
+	display: table-cell;
+}
+
+#ProfilePanel .text-container {
+	/*temp
+	height: 300px;
+	background-color: #effcf2;
+	border-radius: 12px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	display: table-cell;
+}
+
+#ProfilePanel .text-container h3 {
+	font-family: 'Oxygen', sans-serif;
+	padding: 10px 8px;
+	margin: 0;
+}
+#ProfilePanel .text-container p {
+	font-family: 'Open Sans', sans-serif;
+	padding: 1px 20px;
+	padding-bottom: 20px;
+	margin: 0;
+	white-space: pre-wrap;
+	/* pre
+	background-color: none;
+	border: 0 none;
+	
+	font-size: 15px;
+}
+
+#ProfilePanel .text-container-left {
+	border-top-right-radius: 0px;
+}
+
+#ProfilePanel .text-container-right {
+	border-top-left-radius: 0px;
+}
+
+#ProfilePanel #panel {
+	padding: 0;
+	background-color: #fcf8e0;
+	border-radius: 15px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	height: 100%;
+	display: table-row;
+}
+
+#ProfilePanel .btn_container {
+	border-top: 3px solid #929ea0;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+#ProfilePanel .btn_container button {
+	margin: 10px 0px;
+	font-family: 'Ubuntu', sans-serif;
+}
+#ProfilePanel .btn_container button:focus {
+	outline: none;
+}
+
+#ProfilePanel .btn_container .btn-space {
+	color: #191151;
+	border: 1px solid #191151;
+	background-color: #d8d6ff;
+}
+#ProfilePanel .btn_container .btn-space:hover {
+	color: #d8d6ff;
+	background-color: #191151;
+}
+#ProfilePanel .btn_container .btn-space:active {
+	background-color: #08051c;
+}
+
+
+#ProfilePanel .btn_container .btn-normal {
+	color: #5a5a5b;
+	border: 1px solid #5a5a5b;
+	background-color: #eaeaef;
+}
+#ProfilePanel .btn_container .btn-normal:hover {
+	color: #eaeaef;
+	background-color: #5a5a5b;
+}
+#ProfilePanel .btn_container .btn-normal:active {
+	background-color: #2d2d2d;
+}
+
+
+#ProfilePanel .btn_container .btn-fest {
+	color: #ad290c;
+	border: 1px solid #ad290c;
+	background-color: #ffe5d6;
+}
+#ProfilePanel .btn_container .btn-fest:hover {
+	color: #ffe5d6;
+	background-color: #ad290c;
+}
+#ProfilePanel .btn_container .btn-fest:active {
+	background-color: #601100;
+}
+
+
+#ProfilePanel .btn_container .btn-water {
+	color: #0b71c6;
+	border: 1px solid #0b71c6;
+	background-color: #c4e4ff;
+}
+#ProfilePanel .btn_container .btn-water:hover {
+	color: #c4e4ff;
+	background-color: #0b71c6;
+}
+#ProfilePanel .btn_container .btn-water:active {
+	background-color: #003059;
+}
+
+*/

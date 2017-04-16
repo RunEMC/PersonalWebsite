@@ -1,0 +1,96 @@
+/*
+font-family: 'Cabin', sans-serif;
+font-family: 'Bitter', serif;
+font-family: 'Copse', serif;
+font-family: 'Neuton', serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* make sidebar nav vertical */ 
+@media (min-width: 768px) {
+    .sidebar-nav .navbar .navbar-collapse {
+        padding: 0;
+        max-height: none;
+    }
+    .sidebar-nav .navbar ul {
+        float: none;
+        display: block;
+    }
+    .sidebar-nav .navbar li {
+        float: none;
+        display: block;
+    }
+    .sidebar-nav .navbar li a {
+        padding-top: 12px;
+        border-left: solid;
+        border-width: 5px;
+        /*background-color: dodgerblue*/
+    }
+}
+
+.sidebar-nav .navbar li img {
+    height:25px;
+    padding-right:50px;
+}
+.sidebar-nav .navbar {
+    font-family: 'Roboto', sans-serif;
+}
+.sidebar-nav .navbar .navbar-nav .active a {
+    color: #e8e8e8;
+    background-color:#adadad;
+    border-color: #1b1e1d;
+}
+.sidebar-nav .navbar .navbar-nav a:hover {
+    background-color:#e8e8e8;
+    border-color: #2b302e;
+}
+.sidebar-nav .navbar .navbar-nav .active a:hover {
+    color: #f2efef;
+    background-color:#8e8e8e;
+}
+
+/* Navbar BG */
+/*
+.sidebar-nav .navbar #home a:hover {
+    background-color:#e8e8e8;
+    border-color: #2b302e;
+}
+.sidebar-nav .navbar #me a:hover {
+    background-color: #e8e8e8;
+    border-color: #2b302e;
+}
+.sidebar-nav .navbar #code a:hover {
+    background-color: #e8e8e8;
+    border-color: #2b302e;
+}
+.sidebar-nav .navbar #quote a:hover {
+    background-color: #e8e8e8;
+    border-color: #2b302e;
+}
+.sidebar-nav .navbar #msg a:hover {
+    background-color: #e8e8e8;
+    border-color: #2b302e;
+}
+.sidebar-nav .navbar #doc a:hover {
+    background-color: #e8e8e8;
+    border-color: #2b302e;
+}
+*/
+
+#main {
+    /*background-color: #2b302e;*/
+    background-color: #2b302e;
+}
+
+#profile-bar {
+    background-color: #d4e9f9;
+}
+
+.circlepic {
+    padding: 50px 0px;
+}
